@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Калькулятор расчета соотношения масла и бензина для двухтактных двигателей
+      - триммеров, бензокос и бензопил.
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Калькулятор</h1>
+      <p class="p-1">
+        Для расчета пропорции бензина и масла для двухтактных двигателей.
+      </p>
+
+      <div class="wrapper">
+        <div class="text-1">
+          <h2>Введите исходные данные:</h2>
+        </div>
+
+        <div class="container_i-1">
+          <label>
+            <span class="s-1">Соотношение смеси 1:</span>
+            <input type="number" class="i-1" value="50" />
+            <span class="s-2"
+              >например: 1:25, 1:30, 1:32, 1:35, 1:40 и т.д.</span
+            >
+          </label>
+          <button
+            class="btn-info1"
+            title="Иногда пишется 50:1, что одно и тоже"
+            disabled
+          >
+            ?
+          </button>
+        </div>
+
+        <div class="container_i-2">
+          <label>
+            <input type="checkbox" class="ch-1" />
+            <span class="s-3">Объем бензина</span>
+            <input type="number" value="0" class="i-2" />,<span class="s-4">
+              литр</span
+            ><span class="i-8"></span>.<span class="s-5"></span>
+          </label>
+          <button
+            disabled
+            class="btn-info2"
+            title="Отметьте галочкой если Вы знаете точный объем бензина."
+          >
+            ?
+          </button>
+        </div>
+
+        <div class="btn-cal"><button class="btn-calc">Рассчитать</button></div>
+
+        <div class="container_i-3">
+          <p>
+            Пропорция: 1:<span class="i-3"></span> для объема бензина
+            <span class="i-6"></span> литр<span class="i-7">ов</span>.
+          </p>
+        </div>
+
+        <div class="container_i-4">
+          <p id="p-2">Соотношение смеси:</p>
+          <p>Бензин, [литры]: <span class="i-4"></span> л.</p>
+          <p>Масло, [миллилитры]: <span class="i-5"></span> мл.</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
