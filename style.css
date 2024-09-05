@@ -74,7 +74,7 @@ body {
 .container .wrapper .container_i-2 .ch-1 {
   cursor: pointer;
 }
-.wrapper .btn-cal{
+.wrapper .btn-cal {
   margin-bottom: 0.6rem;
   text-align: center;
 }
@@ -97,10 +97,10 @@ body {
   background-color: #05e610;
 }
 
-.container .wrapper .container_i-3{
+.container .wrapper .container_i-3 {
   margin-bottom: 0.3rem;
 }
-.container .wrapper .container_i-4 #p-2{
+.container .wrapper .container_i-4 #p-2 {
   font-weight: 600;
   text-align: center;
 }
